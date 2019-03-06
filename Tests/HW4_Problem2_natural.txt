@@ -1,0 +1,30 @@
+dim 1
+ndofpn 1
+Nodes
+nNodes 5
+id crd
+1 0
+2 0.125
+3 0.1875
+4 0.250
+5 0.500
+Elements
+ne 4
+id elementType matID neNodes eNodes
+1 1 1 2 1 2 
+2 1 1 2 2 3
+3 1 1 2 3 4
+4 1 2 2 4 5
+PrescribedDOF
+np 1
+node node_dof_index value
+1 1 0.0
+FreeDofs
+nNonZeroForceFDOFs 1
+node node_dof_index value
+3 1 50000
+Materials
+nMat 2
+id numPara Paras
+1 2 20000000000 0.000050
+2 2 20000000000 0.000025

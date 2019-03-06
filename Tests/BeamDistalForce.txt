@@ -1,0 +1,24 @@
+dim 1
+ndofpn 2
+Nodes
+nNodes 2
+id crd
+1 0
+2 1
+Elements
+ne 1
+id elementType matID neNodes eNodes
+1 2 1 2 1 2
+PrescribedDOF
+np 2
+node node_dof_index value
+1 1 0
+1 2 0
+FreeDofs
+nNonZeroForceFDOFs 1
+node node_dof_index value
+2 1 1
+Materials
+nMat 1
+id numPara Paras
+1 2 1 1
