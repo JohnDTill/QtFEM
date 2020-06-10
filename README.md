@@ -1,8 +1,9 @@
 # QtFEM
 
-An introductory FEM solver
+An FEM solver for Reza Abedi's introductory class.
 
-![alt text](Screenshot.jpg?raw=true "QtFEM App")
+![Screenshot](Screenshot.jpg?raw=true "QtFEM App")
+![Logo](./QtFEM/resources/IconBanner.png "A cool ME517 logo")
 
 ## Prerequisites
 
